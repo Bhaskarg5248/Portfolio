@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgba(155, 162, 170, 0.507);
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #0f327ee8; /*line below details heading*/
+    color: rgb(255, 255, 255);
+}
+
+.heading span{
+    color: #0f327ee8;
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #0f327ee8;
+    color: rgb(8, 8, 8);
+}
+
+.title span{
+    color: #0f327ee8;
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #0f327ee8;
+    color: #fff;
+}
+.head span{
+    color: #0f327ee8;/*coloring the Technical skills heading*/
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #0f327ee8;
+    color: #fff;
+}
+.pro span{
+    color: #0f327ee8;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#0f327ee8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 20rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit:fill;
+    border: .0rem solid;
+}
+
+header .user .nm{
+    font-size:1.75rem;
+    color: #fff;
+    font-family: Arial;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+header .nv{
+    width: 75%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 2rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: rgb(255, 253, 253);
+    color: rgb(8, 8, 8);
+    font-size:1.5rem;
+    font-family: Arial;
+    border-radius: 1rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:rgba(142, 176, 238, 0.568);
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    font-family:Arial;
+    color: #0f327ee8 ;
+    padding: 1rem 0;
+
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color:#0f327ee8 ;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid #618ce9 ;
+    font-family:  Arial;
+    border-collapse: collapse;
+}
+td{
+    color: rgb(8, 8, 8);
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#fdfdfd ;
+    font-size: 65%
+}
+th{
+    color: rgb(5, 5, 5);
+    font-size: 80%;
+    padding:2.5rem 5rem;
+    background-color :#618ce9;
+}
+table{
+    text-align: center;
+    margin: 2rem 12.5%;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #618ce9 ;
+    color:#618ce9  ;
+}
+#lis li{
+    margin: 1rem 9rem;
+    font-family: Arial;
+    color: rgb(7, 7, 7);
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color:#0a0a0a ;
+    padding: 1rem 0;
+    font-weight: normal;
+    font-family: Arial;
+}
+.Project .Row .det ul li{
+    font-size: 2rem;
+    color:#0a0a0a ;
+    padding: 1rem 0;
+    font-weight: normal;
+    font-family: Arial;
+    margin-left: 5%;
+}
+
+
+.Project .Row .det h3 span{
+    color: #0f327ee8;
+    padding: 0. 5rem;
+    font-family: Arial;
+    font-size: 2.3rem ;
+}
